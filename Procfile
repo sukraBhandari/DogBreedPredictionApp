@@ -1,1 +1,1 @@
-web: gunicorn DogApp:app
+web: gunicorn app:app
