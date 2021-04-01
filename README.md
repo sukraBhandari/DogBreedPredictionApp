@@ -86,9 +86,13 @@ In order to run this application in localhost, please execute the following step
    
  ## Results and Future Implementation<a name="results"></a>
 CNNs model that we built from scratch gave us sligtly over 5% accuracy, which was better than the random guess which would give us accuracy of less than 1% given we have 133 categories of dog breeds. But the model that we built using ResNet50, a pretrained model on ImageNet, we were able to get over 80% accuracy. I think the ouput was much better than what I had expected given we had slight over 5% accuracy on the CNN model that we built from scratch. This is almost a "free lunch". We added two layers to the pretrained network and able to get over 80% accuracy is mind blowing. However, there is still plenty of room to improve our algorithm.
+    
     - There is an evidence of overfitting in our model. We can collect more dataset and also use data agumentation techiques such as image rotate, blur, rescale and flip on current dataset to increase the size of our training data. 
     -  Train our model longer/ higher epochs to improve our validation accuracy. 
     -  We could also more layer to the model.
     -  Currently the model is only able to predict if there is only one dog on the image. We might also consider adding classification and localization to able to classify multiple dog breed if there were multiple dogs in a single image. Popular architecure such as YOLO (You Only Look Once) can be used for fast and accurate oject detection.
  
 ## Screenshots <a name="screenshots"></a>
+![screen1](https://user-images.githubusercontent.com/7229266/113328333-0420a300-92d1-11eb-9d5f-160aea8ebc88.PNG)
+
+![screen2](https://user-images.githubusercontent.com/7229266/113328445-25818f00-92d1-11eb-8df3-b84a5a1cbd4d.PNG)
