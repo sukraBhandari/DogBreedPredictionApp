@@ -58,6 +58,7 @@ CNNs model that we built from scratch gave us slightly over 5% accuracy, which w
 - dog-project
 | - haarcascades
 | - saved_models
+| - test_images
 | - dog_app.ipynb
 | - extract_bottleneck_features.py
 
